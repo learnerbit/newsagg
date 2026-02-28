@@ -1,7 +1,10 @@
+export const dynamic = 'force-dynamic';
+
 import { sql } from '@/lib/db';
 import { revalidatePath } from 'next/cache';
 import Link from 'next/link';
 import { auth, signIn, signOut } from "@/src/auth";
+
 
 export default async function Home({
   searchParams,
