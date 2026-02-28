@@ -2,7 +2,7 @@
   "crons": [
     {
       "path": "/api/sync-news?key=jssyncjob",
-      "schedule": "0 * * * *"
+      "schedule": "0 0 * * *"
     }
   ]
 }
